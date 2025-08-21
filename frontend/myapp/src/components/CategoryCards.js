@@ -15,7 +15,7 @@ const CategoryCards = () => {
   return (
     <section className="categories">
       <div className="container">
-        <h2 className="section-title">Shop by Category</h2>
+        <h2 className="section-title">Categories</h2>
         <div className="category-grid">
           {categories.map((category) => (
             <div key={category.id} className="category-card">
